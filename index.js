@@ -1,7 +1,7 @@
 // Iteration 1: Names and Input
 
-let hacker1 = "Jonny";
-let hacker2 = "Daniela";
+let hacker1 = "Jonny"; //Jonny
+let hacker2 = "Daniela"; //Dani
 
 
 console.log(`The driver's name is ${hacker1}.`);
@@ -20,7 +20,7 @@ if (hacker1.length > hacker2.length) {
 
 
 // Iteration 3: Loops
-
+//Jonny
 let spaceCapName = ""
 let trimmedName =""
 
@@ -30,13 +30,24 @@ for (let i = 0; i < hacker1.length; i++) {
      
 }
 console.log(trimmedName);
-
+//Dani
 let reverseHacker2 = "";
 for (let k =hacker2.length-1; k>=0; k--){
     reverseHacker2 +=hacker2[k];
    
 }
 console.log(reverseHacker2);
+
+
+if (hacker1 === hacker2) {
+    console.log("What?! You both have the same name?");
+} else if (hacker1 < hacker2) {
+    console.log("The driver's name goes first.");
+} else {
+    console.log("Yo, the navigator goes first, definitely.");
+}
+
+
 
 
 //Bonus 1 - Long text count
